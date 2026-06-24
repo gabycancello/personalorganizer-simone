@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Organizer | Organização Residencial e Hábitos para uma Vida mais Leve</title>
+  <meta name="description" content="Transforme sua casa e sua rotina com organização residencial, hábitos conscientes e alimentação equilibrada. Mais leveza, bem-estar e praticidade no seu dia a dia.">
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="/media/main.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/media/main.png">
+  <link rel="stylesheet" href="../src/assets/css/reset.css">
+  <link rel="stylesheet" href="../src/assets/css/styles.css">
+  <link rel="stylesheet" href="../src/assets/css/animations.css">
+  <link rel="stylesheet" href="../src/assets/css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="loading-screen">
+    <div class="loader">
+      <span>PERSONAL ORGANIZER</span>
+    </div>
+  </div>
+
+  <header id="header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html">
+          <span class="logo-main">PERSONAL ORGANIZER</span>
+          <span class="logo-sub">SIMONE</span>
+        </a>
+      </div>
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="index.html" class="active">Início</a></li>
+          <li><a href="#about">Essência</a></li>
+          <li><a href="#classes">Método</a></li>
+          <li><a href="#journeys">Jornadas</a></li>
+          <li><a href="#testimonials">Depoimentos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="cta-button">
+        <a href="#join-now" class="btn btn-primary">Começar Agora</a>
+      </div>
+      <div class="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-nav">
+    <div class="close-menu">
+      <i class="fas fa-times"></i>
+    </div>
+    <ul>
+      <li><a href="index.html" class="active">Início</a></li>
+      <li><a href="#about">Essência</a></li>
+      <li><a href="#classes">Método</a></li>
+      <li><a href="#journeys">Jornadas</a></li>
+      <li><a href="#testimonials">Depoimentos</a></li>
+      <li><a href="#contact">Contato</a></li>
+      <li class="mobile-cta"><a href="#join-now" class="btn btn-primary">Começar Agora</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1 class="animate-text">Menos bagunça. Mais vida.</h1>
+        <h2 class="animate-text">Da sua casa aos seus hábitos, uma organização que respeita sua história e sua rotina.</h2>
+        <p class="animate-text">Organizar não é controlar a vida. É abrir espaço para vivê-la.</p>
+        <div class="hero-buttons animate-text">
+          <a href="#join-now" class="btn btn-primary">Começar minha transformação</a>
+          <a href="#about" class="btn btn-secondary">Conhecer Simone</a>
+        </div>
+      </div>
+      <div class="hero-overlay"></div>
+        <img src="../src/img/background.jpeg" id="hero-image" alt="Personal Organizer Simone">
+    </section>
+
+    <section id="featured" class="featured" style="background-color: rgb(255, 249, 249);">
+      <div class="container">
+        <div class="featured-grid">
+          <div class="featured-item" data-aos="fade-up">
+            <div class="icon">
+              <i class="fas fa-house"></i>
+            </div>
+            <h3>Organização do lar</h3>
+            <p>Trasforme cada ambiente em um espaço funcional, acolhedor e alinhado à sua rotina.
+              Porque uma casa organizada abre espaço para uma vida mais leve.
+            </p>
+          </div>
+          <div class="featured-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon">
+              <i class="fa-solid fa-leaf"></i>
+            </div>
+            <h3>Hábitos de Alimentação Consciente</h3>
+            <p>A mudança começa nos pequenos passos.
+              Crie uma relação saudável com sua alimentação e desenvolva hábitos que 
+              permaneçam no seu dia a dia.
+            </p>
+          </div>
+          <div class="featured-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon">
+              <i class="fa-regular fa-calendar-check"></i>
+            </div>
+            <h3>Métodos e Rotinas Inteligentes</h3>
+            <p>Organizar não é apenas guardar objetos, é criar sistemas simples que economizam
+              tempo, reduzem o estresse e facilitam a rotina.
+            </p>
+          </div>
+          <div class="featured-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h3>Bem-estar e Autocuidado</h3>
+            <p>Um ambiente em harmonia reflete uma mente mais tranquila.
+              Cuidar da casa também é uma forma de cuidar de si.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text" data-aos="fade-right">
+            <div class="section-header">
+              <span class="subtitle">Minha Essência</span>
+              <h2>Bem-vindos ao lugar onde a sua casa encontra sua melhor versão.</h2>
+            </div>
+            <p>Este projeto nasceu da crença de que organizar não significa buscar perfeição,
+              mas criar espaço para aquilo que realmente importa.
+              <br>
+              <br>
+              Através da organização dos ambientes, da construção de hábitos conscientes e de
+              uma relação mais gentil com a alimentação, meu objetivo é ajudar você a encontrar
+              mais leveza, autonomia e bem-estar no seu dia a dia.
+              <br>
+              <br>
+              Cada gaveta organizada, cada novo hábito e cada pequena conquista representam algo
+              maior: mais tempo para viver, cuidar de si e criar novas memórias.
+            </p>
+            <div class="stats-container">
+              <div class="stat-item">
+                <span class="count" data-target="6">0</span>
+                <span class="label">Anos transformando rotinas</span>
+              </div>
+              <div class="stat-item">
+                <span class="count" data-target="50">0</span>
+                <span class="label">Vidas organizadas</span>
+              </div>
+            </div>
+            <a href="#classes" class="btn btn-primary">Descubra minha abordagem</a>
+          </div>
+          <div class="about-image" data-aos="fade-left">
+            <img src="../src/img/about.jpg" alt="Personal Organizer - Simone">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="classes" class="classes" style="background-color: rgb(255, 249, 249);">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="subtitle">O Método Simone</span>
+          <h2>Organização dos Espaços</h2>
+          <p>Cada casa possui uma história. Meu método respira sua rotina,
+            seus hábitos e transforma os espaços para que eles trabalhem  seu favor.
+          </p>
+        </div>
+        <div class="class-filter">
+          <button class="filter-btn active" data-filter="all">Tudo</button>
+          <button class="filter-btn" data-filter="strength">Organização do Lar</button>
+          <button class="filter-btn" data-filter="cardio">Rotina inteligente</button>
+          <button class="filter-btn" data-filter="yoga">Alimentação Consciente</button>
+          <button class="filter-btn" data-filter="dance">Bem-estar</button>
+        </div>
+        <div class="classes-grid">
+          <div class="class-card" data-category="strength" data-aos="fade-up">
+            <div class="class-image">
+              <img src="../src/img/organizaç-afetiva.jpeg" alt="Organização Afetiva">
+              <div class="overlay">
+                <a href="#" class="btn btn-sm">Saiba Mais</a>
+              </div>
+            </div>
+            <div class="class-details">
+              <h3>Organização Afetiva</h3>
+              <p>Organizar também é honrar histórias, preservar memórias e manter por perto aquilo que realmente faz sentido.</p>
+            </div>
+          </div>
+          <div class="class-card" data-category="cardio" data-aos="fade-up" data-aos-delay="100">
+            <div class="class-image">
+              <img src="../src/img/rotina-inteligente.jpeg" alt="Personal Organizer - Simone">
+              <div class="overlay">
+                <a href="#" class="btn btn-sm">Saiba Mais</a>
+              </div>
+            </div>
+            <div class="class-details">
+              <h3>Rotinas que Funcionam</h3>
+              <div class="meta">
+              </div>
+              <p>Pequenos sistemas e hábitos inteligentes que transformam o caos diário em uma rotina simples e equilibrada.</p>
+            </div>
+          </div>
+          <div class="class-card" data-category="yoga" data-aos="fade-up" data-aos-delay="200">
+            <div class="class-image">
+              <img src="../src/img/alimentaç.jpeg" alt="Rotina Personal Organizer">
+              <div class="overlay">
+                <a href="#" class="btn btn-sm">Saiba Mais</a>
+              </div>
+            </div>
+            <div class="class-details">
+              <h3>Alimentação Consciente</h3>
+              <div class="meta">
+              </div>
+              <p>Uma nova forma de olhar para a alimentação: mais presença, equilíbrio e consciência, para que cada escolha se torne um cuidado consigo.</p>
+            </div>
+          </div>
+          <div class="class-card" data-category="dance" data-aos="fade-up" data-aos-delay="300">
+            <div class="class-image">
+              <img src="../src/img/bem-estar.jpeg" alt="bem-estar">
+              <div class="overlay">
+                <a href="#" class="btn btn-sm">Saiba Mais</a>
+              </div>
+            </div>
+            <div class="class-details">
+              <h3>Autocuidado e Bem-estar</h3>
+              <p>Criar um ambiente harmonioso e reservar momentos para si também é uma forma de organização e amor-próprio.</p>
+            </div>
+          </div>
+          <div class="class-card" data-category="yoga" data-aos="fade-up" data-aos-delay="100">
+            <div class="class-image">
+              <img src="../src/img/planjemanto-alimentar.jpeg" alt="Spin Class">
+              <div class="overlay">
+                <a href="#" class="btn btn-sm">Saiba Mais</a>
+              </div>
+            </div>
+            <div class="class-details">
+              <h3>Planejamento Alimentar Inteligente</h3>
+              <div class="meta">
+              </div>
+              <p>Estratégias simples para organizar refeições, reduzir desperdícios e trazer mais praticidade para a rotina.</p>
+            </div>
+          </div>
+          <div class="class-card" data-category="strength" data-aos="fade-up" data-aos-delay="200">
+            <div class="class-image">
+              <img src="../src/img/sistema-de-organiz.jpeg" alt="Functional Training">
+              <div class="overlay">
+                <a href="#" class="btn btn-sm">Saiba Mais</a>
+              </div>
+            </div>
+            <div class="class-details">
+              <h3>Organização dos Espaços</h3>
+              <p>Ambientes funcionais e acolhedores que facilitam sua rotina e trazem mais leveza ao dia a dia.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="journeys" class="trainers">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="subtitle">Jornadas</span>
+          <h2>Transformações guiadas pelo Método Simone</h2>
+          <p>Cada jornada é um processo estruturado de reorganização da casa, da rotina e dos hábitos - no seu ritmo, com acompanhamento.</p>
+        </div>
+        <div class="trainers-grid">
+          <div class="trainer-card" data-aos="fade-up">
+            <div class="trainer-image">
+              <img src="../src/img/journeys1.jpeg" alt="Diagnóstico de Rotina">
+            </div>
+    <div class="trainer-details">
+      <h3>Diagnóstico de Rotina</h3>
+      <p>Um mapeamento completo da sua casa, rotina e hábitos para identificar onde sua energia está sendo perdida.</p>
+    </div>
+  </div>
+
+  <div class="trainer-card" data-aos="fade-up" data-aos-delay="100">
+    <div class="trainer-image">
+      <img src="../src/img/journeys2.jpeg" alt="Rotina Inteligente">
+    </div>
+    <div class="trainer-details">
+      <h3>Rotina Inteligente</h3>
+      <p>Criação de sistemas simples de organização diária para reduzir caos mental e decisões desnecessárias.</p>
+    </div>
+  </div>
+
+  <div class="trainer-card" data-aos="fade-up" data-aos-delay="200">
+    <div class="trainer-image">
+      <img src="../src/img/journey3.jpg" alt="Acompanhamento Guiado">
+    </div>
+    <div class="trainer-details">
+      <h3>Acompanhamento Guiado</h3>
+      <p>Encontros direcionados com análise da sua evolução e ajustes na sua rotina e organização.</p>
+    </div>
+  </div>
+
+  <div class="trainer-card" data-aos="fade-up" data-aos-delay="300">
+    <div class="trainer-image">
+      <img src="../src/img/journeys4.jpg" alt="Integração de Hábitos">
+    </div>
+    <div class="trainer-details">
+      <h3>Integração de Hábitos</h3>
+      <p>Consolidação das mudanças para que sua nova rotina se mantenha de forma leve e natural.</p>
+    </div>
+  </div>
+
+</div>
+    </section>
+
+    <section id="testimonials" class="testimonials" style="background-color: rgb(255, 249, 249);">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="subtitle">Histórias De Sucesso</span>
+          <h2>O Que Nossos Membros Dizem</h2>
+        </div>
+        <div class="testimonial-slider">
+          <div class="testimonial-container">
+            <div class="testimonial active">
+              <div class="testimonial-image">
+                <img src="../src/img/depoimentos01.jpeg" alt="Cliente 01">
+              </div>
+              <div class="testimonial-content">
+                <div class="quote">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <p>Si, amo organização e gestão do tempo.
+                  Foram dias incríveis de muito aprendizado aqui com você. Você mudou a minha vida
+                  em apenas 7 dias. Não acreditava que seria possível mas é real. Me inscrevi na mentoria
+                  depois de ver um feedback de uma outra aluna sua que era mãe e que trabalhava
+                  fora, resolvi envestir pra ver se funcionava comigo e estou sem palavras. 
+                  No segundo dia de mentoria já vi tudo mudar da água pro vinho. Gratidão por tudo!
+                  Vou continuar te acompanhando nas redes.
+                </p>
+                <div class="testimonial-info">
+                  <h4>Camila</h4>
+                  <span>Jornada de Organização Residencial • São Paulo, Brasil</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial">
+              <div class="testimonial-image">
+                <img src="../src/img/depoimentos02.jpeg" alt="Depoimento 02">
+              </div>
+              <div class="testimonial-content">
+                <div class="quote">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <p>Procurei a mentoria da Simone para desinflamar meu corpo e perder peso.
+                  Me senti segura durante o curso e a mentora é ótima. Com certeza indico a mentoria
+                  de Organização dos Espaços e Planejamento Alimentar Inteligente. A Simone é organizada
+                  e atenciosa, ótima!
+                </p>
+                <div class="testimonial-info">
+                  <h4>Elida</h4>
+                  <span>Jornada de Organização dos Espaços e Planejamento Alimentar Inteligente • São Paulo, Brasil</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial">
+              <div class="testimonial-image">
+                <img src="../src/img/depoimentos03.jpeg" alt="Cliente de Organização">
+              </div>
+              <div class="testimonial-content">
+                <div class="quote">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <p>Eu estava procurando uma forma simples de manter minha casa organizada e limpa. Após a mentoria estou feliz porque
+                  vi que não é difícil manter a casa como eu gostaria, e minha casa está bem mais limpa.
+                  Recomendo a Simone porque muitas pessoas têm dificuldade de manter a casa limpa e organizada
+                  e acham que dá muito trabalho fazer isso. PS: Com ela não é.
+                </p>
+                <div class="testimonial-info">
+                  <h4>Vitoria</h4>
+                  <span>Jornada de Organização Residencial • São Paulo, Brasil</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-controls">
+            <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <div class="testimonial-dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+            <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="subtitle">Vamos conversar</span>
+          <h2>Sua transformação começa com uma conversa</h2>
+          <p>Conte um pouco sobre sua rotina, seus desafios e seus objetivos.
+            Juntas encontraremos o melhor caminho para uma casa organizada e uma vida mais leve.
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info" data-aos="fade-right">
+            <div class="info-item">
+              <div class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4>Atendimento</h4>
+                <p>Atendimento online<br>para todo o Brasil e <br>
+                presenciais conforme disponibilidade.</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div>
+                <h4>WhatsApp</h4>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Endereço de Email</h4>
+                <p>simonecancello@gmail.com</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon">
+                <i class="fas fa-clock"></i>
+                <div>
+                <h4>Instagram</h4>
+                <p>sicancellorganizer/p>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form" data-aos="fade-left">
+            <form id="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name">Seu nome</label>
+                  <input type="text" id="contact-name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="contact-email">Seu melhor e-mail</label>
+                  <input type="email" id="contact-email" name="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="contact-subject">Qual sua maior necessidade hoje?</label>
+                <input type="text" id="contact-subject" name="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-message">Mensagem</label>
+                <textarea id="contact-message" name="message" rows="6" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-column">
+          <div class="footer-logo">
+            <a href="index.html">
+              <span class="logo-main">Simone</span>
+              <span class="logo-sub">Personal Organizer</span>
+            </a>
+          </div>
+          <p>Experiência desenvolvida com foco em resultados. Junte-se à nossa comunidade e transforme a sua vida.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Links Rápidos</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#about">Minha Essência</a></li>
+            <li><a href="#classes">O Método</a></li>
+            <li><a href="#trainers">Jornadas</a></li>
+            <li><a href="#testimonials">Depoimentos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Personal Organizer | Simone. Todos os direitos reservados.</p>
+        <ul class="footer-policy">
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Termos de Uso de Serviço</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+  <script src="../src/assets/js/main.js"></script>
+  <script src="../src/assets/js/animations.js"></script>
+  <script src="../src/assets/js/testimonials.js"></script>
+  <script src="../src/assets/js/pricing.js"></script>
+  <script src="../src/assets/js/classes.js"></script>
+  <script src="../src/assets/js/counter.js"></script>
+</body>
+</html>
